@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost/books_test", {
-    useMongoClient: true
+mongoose.connect("mongodb://localhost/books_test", { 
+    useNewUrlParser: true 
 });
 
 mongoose.connection.once("open", () => {
