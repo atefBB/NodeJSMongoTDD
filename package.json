@@ -14,7 +14,7 @@
   "author": "Atef Ben Ali <atef.bettaib@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "mongoose": "^5.6.0"
   }
 }
